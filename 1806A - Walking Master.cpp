@@ -14,7 +14,10 @@ int main() {
             a+=d-b;
             b=d;
         }
-        else cout<<-1<<endl;
+        else {
+            cout<<-1<<endl;
+            continue;
+        }
         if(c<=a){
             // a-=c-a;
             count+=a-c;
